@@ -36,3 +36,21 @@ https://www.kaggle.com/datasets/alarchemn/letterbox-top250-short-reviews
 
 **Example Results.png**
 A sample output showing what your feature-level accuracy analysis might look like when complete
+
+--- 
+
+## A Note on Engineered Features
+
+The rubric asks you to engineer and analyze four text features. Here is a brief explanation of each:
+
+**Review Length**
+The total number of characters or words in a review. Longer reviews may contain more nuanced or mixed sentiment that is harder for a model to classify correctly.
+
+**Emoji Count**
+The number of emoji characters present in a review. Emojis are a common way users express emotion informally and may signal sentiment that the model was not trained to interpret.
+
+**Capitalization Ratio**
+The proportion of alphabetic characters in a review that are uppercase (e.g. a review that is ALL CAPS has a high capitalization ratio). High capitalization often signals strong emotion, sarcasm, or emphasis, which can confuse a model trained on more neutral text.
+
+**Language**
+The detected language of the review text. The recommended pretrained model was trained primarily on English-language data, so reviews written in other languages may be predicted less accurately.
