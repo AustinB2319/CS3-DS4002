@@ -14,11 +14,15 @@ Read this after the hook. It outlines the full requirements for your deliverable
 
 ---
 
-## Materials Folder
+## DATA Folder
 
 **LetterboxdTop250-5000reviews.csv**
 The raw dataset containing user reviews and star ratings from Letterboxd's Top 250 films. This is your primary data source. If you need to re-download it, the original can be found on Kaggle at:
 https://www.kaggle.com/datasets/alarchemn/letterbox-top250-short-reviews
+
+---
+
+## MATERIALS Folder
 
 ### Context Articles
 
